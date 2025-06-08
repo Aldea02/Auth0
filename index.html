@@ -1,0 +1,46 @@
+LOGIN_HTML = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <p>Choose your login method:</p>
+        <p>
+            <a href="/auth/login/auth0" class="btn">Login with Auth0 (Username/Password)</a>
+        </p>
+        <p>
+            <a href="/auth/login/google" class="btn">Login with Google</a>
+        </p>
+    </div>
+</body>
+</html>
+"""
